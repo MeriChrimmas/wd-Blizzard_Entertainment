@@ -1,0 +1,22 @@
+img{
+    max-width: 150px;
+    width: 100%;
+}
+
+.nav-link{
+    font-weight: 600;
+    color:black;
+
+}
+
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+
+.lni-dashboard-square-1{
+    font-size: 1.5rem;
+}
+
+.lni-line-dashed{
+    font-size: 4rem;
+}
