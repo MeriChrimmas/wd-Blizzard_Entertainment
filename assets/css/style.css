@@ -13,3 +13,13 @@ img{
 .container {
     border-radius: 7px;
 }
+
+.collapse{
+    justify-content: space-between;
+}
+
+a{
+    font-weight:500px;
+    font-size: x-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

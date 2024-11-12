@@ -6,14 +6,14 @@
 <div align="center">
   <a href="https://github.com/zyx-0314/">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
+    <img src="./assets/img/bliz.png" alt="Blizz Ent." width="130" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Title</h3>
+  <h3 align="center">Blizzard Entertainment</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Short Description. (Optional)
+  Seatwork for CCS0027L
 </div>
 
 <br />
@@ -59,6 +59,8 @@
 <!-- The following are just sample -->
 Description of the project in details.
 
+As the short description says, this is a seatwork for out coding class. For this one I am part of the group of students who are assigned to make a gaming company's website, I chose Blizzard Company. In addition to Css and HTMl, Bootstrap is added to this activity.
+
 Guiding Question:
 - What is the project
 - Whats the purpose
@@ -68,9 +70,9 @@ Guiding Question:
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
-- MultiPage Website/Single Page Website
+- MultiPage Website
 - Parallax transition
-- Transactional
+
 
 ### Technology
 <!-- TODO: List of Technology Used -->
@@ -119,3 +121,4 @@ WD-ProjectName
 |-|-|-|
 | Bootstrap 5 Crash Course Tutorial#8- Navbar | Used as a guide to create my navbar. | https://youtu.be/7AT1X9Z41sA?si=_so9ie9Gxea_A_uv |
 | How TO - Full Page Image | Reference for the background image to work and reach intended screen size. |https://www.w3schools.com/howto/howto_css_full_page.asp|
+|Bootstrap 5 website | Such a huge help in general.| https://getbootstrap.com/docs/5.0/components/navbar/ |
