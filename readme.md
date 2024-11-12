@@ -117,4 +117,5 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| Bootstrap 5 Crash Course Tutorial#8- Navbar | Used as a guide to create my navbar. | https://youtu.be/7AT1X9Z41sA?si=_so9ie9Gxea_A_uv |
+| How TO - Full Page Image | Reference for the background image to work and reach intended screen size. |https://www.w3schools.com/howto/howto_css_full_page.asp|
