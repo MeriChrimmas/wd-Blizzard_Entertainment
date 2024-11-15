@@ -8,6 +8,20 @@ img{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment:fixed;
+    .blank-container{
+        height: 33rem;
+    }
+    .intro-text{
+    justify-content: center;
+    align-items: flex-end;
+    text-align: center;
+        h1{
+            color: white;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 2rem;
+        }
+    }
 }
 
 .container {
@@ -23,3 +37,4 @@ a{
     font-size: x-large;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
