@@ -202,6 +202,48 @@ img{
             padding: 10px 0;
         }
     }
+    .inner{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        background: #19358a;
+        backdrop-filter: blur(15px);
+        padding: 20px;
+        border-radius: 10px;
+        color: #000;
+        max-width: 1300px;
+        margin: 50px auto;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        border: 3px solid #1efbec;
+        .geek{
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            max-width: 50%;
+        }
+        .text4{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        h11{
+            text-align: center;
+            color: white;
+            text-shadow: 2px 2px 8px #000000;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 350%;
+            padding: 10px 0;
+        }
+        h12{
+            text-align: center;
+            color: white;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 150%;
+            padding: 10px 0;
+        }
+    }
 }
 
 
