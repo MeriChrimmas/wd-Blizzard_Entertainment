@@ -32,7 +32,6 @@ img{
             background: rgba(0, 0, 0, 0.5);
             width: 100%;
             height: 100%;
-            box-shadow: 4px 3px 4px #fff;
             h1{
                 font-size: 3rem;
                 color: white;
@@ -60,6 +59,49 @@ img{
             }
         }
         .form-details{
+            .icons{
+                display: flex;
+                justify-content:center;
+                align-items: center;
+                gap: 20px;
+                button{
+                    display: inline-flex;
+                    justify-content: center;
+                    align-items: center;
+                    background-color: #19358a;
+                    color: #fff;
+                    border: none;
+                    border-radius: 50px;
+                    padding: 15px 15px;
+                    cursor: pointer;
+                    transition: background-color 0.3s ease;
+                    margin: 10px;
+                    height: auto;
+                    width: auto;
+                }
+                button:hover{
+                    background-color: #12286a;
+                }
+                .cs-icon{
+                    display: inline-flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 50px;
+                    height: 50px;
+                    margin-right: 8px;
+                }
+                .pm-icon{
+                    margin-right: 8px;
+                }
+                .trs-icon{
+                    display: inline-flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 50px;
+                    height: 50px;
+                    margin-right: 8px;
+                }
+            }
             li{
                 display: flex;
                 align-items: center;
@@ -82,6 +124,9 @@ img{
                 resize: none;
                 border-radius: 5px;
                 font-size: 1rem;
+                .form-label{
+                    color: #565f7a;
+                }
             }
             span{
                 position: absolute;
@@ -92,7 +137,6 @@ img{
                 font-size: 0.8rem;
                 color: #ddd;
                 text-transform: uppercase;
-                transition: 0.5s;
             }
             .form-group .form-control:valid ~ span,
             .form-group .form-control:focus ~ span{
@@ -103,7 +147,8 @@ img{
                 padding: 0.10px;
             }
         }
-        .button{
+        .btn-send,
+        .input-field .btn-send {
             outline: none;
             border: none;
             background: #172246;
@@ -113,22 +158,13 @@ img{
             font-size: 1rem;
             margin: 1rem 0;
             cursor: pointer;
-            transition: 0.4s;
+            transition: background 0.4s ease;
         }
-        .input-field{
-            .button{
-                outline: none;
-                border: none;
-                background: #172246;
-                color: #fff;
-                padding: 0.5rem 1rem;
-                border-radius: 5px;
-                font-size: 1rem;
-                margin: 1rem 0;
-                cursor: pointer;
-                transition: 0.4s;
-            }
+        
+        .btn-send:hover {
+            background: #19358a; /* Slightly brighter shade for hover */
         }
+        
    }
    
 }
