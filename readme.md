@@ -122,4 +122,4 @@ WD-ProjectName
 | Bootstrap 5 Crash Course Tutorial#8- Navbar | Used as a guide to create my navbar. | https://youtu.be/7AT1X9Z41sA?si=_so9ie9Gxea_A_uv |
 | How TO - Full Page Image | Reference for the background image to work and reach intended screen size. |https://www.w3schools.com/howto/howto_css_full_page.asp|
 |Bootstrap 5 website | Such a huge help in general.| https://getbootstrap.com/docs/5.0/components/navbar/ |
-|Android Apps by Blizzard Entertainment, Inc. on Google Play | Used image for the background.|https://images.app.goo.gl/afJDjm7A6KT9LV6C9|
+| Responsive Contact Us Page in HTML and CSS | Used to create the contact form. | https://youtu.be/v3-HouKf3oQ?si=bqc9e2uKQPSSexCv|
