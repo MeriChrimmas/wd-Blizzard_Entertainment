@@ -1,0 +1,91 @@
+img{
+    max-width: 150px;
+    width: 100%;
+}
+
+.navbar{
+    background-color: #292424;
+}
+
+.bg-image{
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:scroll;
+    .in-contact{
+    justify-content: center;
+    align-items: flex-end;
+    text-align: center;
+        h1{
+            color: white;
+            text-shadow: 2px 2px 8px #000000;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 350%;
+            padding-top: 3%;
+        }
+    }
+    .about-us{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: rgba(78, 86, 241, 0.515);
+    backdrop-filter: blur(15px);
+    padding: 20px;
+    border-radius: 10px;
+    color: #000;
+    max-width: 850px; 
+    margin: 50px auto; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    h2{
+        color: black;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 170%;
+        padding: 2%;
+    }
+    }
+}
+
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #172246;
+    color: white;
+    text-align:left;
+    padding: 20px 30px;
+    font-family: 'Arial', sans-serif;
+    .footerlogo{
+        display: flex;
+        justify-content: flex-start;
+    }
+    .flogo {
+        height: 50px;
+        width: auto;
+    }
+    .footer-text {
+        flex: 1;
+        margin-left: 20px;
+    }
+}
+
+
+
+
+
+
+.container {
+    border-radius: 7px;
+}
+
+.collapse{
+    justify-content: space-between;
+}
+
+a{
+    font-weight:500px;
+    font-size: x-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
