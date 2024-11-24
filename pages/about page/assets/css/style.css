@@ -414,6 +414,33 @@ img{
     }
 }
 
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #172246;
+    color: white;
+    text-align:left;
+    padding: 20px 30px;
+    font-family: 'Arial', sans-serif;
+    .footerlogo{
+        display: flex;
+        justify-content: flex-start;
+    }
+    .flogo {
+        height: 50px;
+        width: auto;
+    }
+    .footer-text {
+        flex: 1;
+        margin-left: 20px;
+    }
+}
+
+
+
+
+
 
 .container {
     border-radius: 7px;
