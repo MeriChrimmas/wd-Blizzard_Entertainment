@@ -49,6 +49,9 @@ img{
                 height: 380px;
                 object-fit: fill;
             }
+            img:hover{
+                transform: scale(1.1);
+            }
             .games{
                 display: flex;
                 flex-direction: column;
@@ -70,11 +73,28 @@ img{
                     margin: 0;
                     padding-top: 5px;
                 }
+                .apps{
+                    display: flex;
+                    gap: 10px;
+                    margin-top: 10px;
+                    img{
+                        width: 30px;
+                        height: 30px;
+                        object-fit: contain;
+                        transition: transform 0.3s ease;
+                    }
+                    img:hover{
+                        transform: scale(1.1);
+                    }
+                }
             }
         }
     }
 }
 
+.divider{
+    max-width: 10%;
+}
 
 .footer {
     display: flex;
