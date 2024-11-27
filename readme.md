@@ -13,7 +13,7 @@
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Seatwork for CCS0027L
+  American video game developer and publisher based in Irvine, California, and a subsidiary of Activision Blizzard.
 </div>
 
 <br />
@@ -59,13 +59,11 @@
 <!-- The following are just sample -->
 Description of the project in details.
 
-As the short description says, this is a seatwork for out coding class. For this one I am part of the group of students who are assigned to make a gaming company's website, I chose Blizzard Company. In addition to Css and HTMl, Bootstrap is added to this activity.
-
 Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
+- This project is about practicing in designing a website using one that already exists as a reference. For this project, it focuses on Blizzard Entertainment's website.
+- THe purpose is create a website designed for a specific company
+- MultiPage website.
+- HTML, CSS, and Bootstrap 5. HTML is the main component, CSS is used to design the HTML and BOotstrap enables the website to adjust to different screen sizes as well as be some sort of shortcut to HTML.
 
 ### Key Components
 <!-- TODO: List of Key Components -->
@@ -78,7 +76,7 @@ Guiding Question:
 <!-- TODO: List of Technology Used -->
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)
 
 ## Rules, Practices and Principles
 1. Always use `WD-` in the front of the Title of the Project for the Subject followed by your custom naming.
