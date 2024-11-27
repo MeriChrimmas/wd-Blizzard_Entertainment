@@ -1,0 +1,304 @@
+.blizzlogo{
+    max-width: 150px;
+    width: 100%;
+}
+
+.overw2{
+    max-width: 100px;
+    width: 100%;
+}
+
+.bg-image{
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+
+    .welcome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+        .titlecard{
+            max-width: 600px;
+            width: 100%;
+            padding-top: 3%;
+        }
+    }
+    .subtitle{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 20%;
+        padding: 20px;
+    }
+}
+
+.features{
+    background-image: url(../img/bg2hearthstone.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 20px;
+    .text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    h2{
+        color: white;
+        text-shadow: 2px 2px 8px #000000;
+        font-family:cursive;
+        font-size: 400%;
+        padding-top: 3%;
+    }
+    h3{
+        color: rgb(255, 255, 255);
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 200%;
+        padding: 10px 0;
+        padding-right: 2%;
+    }
+    .feature-icons{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 25px;
+        padding: 20px;
+        width: 100%;
+        gap: 90px;
+        .subtext{
+            text-align: center;
+            width: 300px;
+        }
+    .featurepics{
+            width: 100%;
+            max-width: 700px;
+            height: auto;
+            object-fit: contain;
+            margin: 10px;
+            display: block;
+            border: 2px solid white;
+        }
+        h4{
+            margin-top: 5px;
+            font-size: 25px;
+            color: #ffffff;
+        }
+        h5{
+            margin-top: 5px;
+            font-size: 17px;
+            color: #ffffff;
+        }
+    }
+}
+
+
+
+
+.heroes{
+    background-image: url(../img/container-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    h6{
+        text-align: center;
+        color:  rgb(59, 23, 5);
+        text-shadow: 2px 2px 8px #e3e3e3;
+        font-family:'Times New Roman', Times, serif;
+        top: 50%;
+        left: 50%;
+        font-size: 400%;
+    }
+    h7{
+        text-align: center;
+        bottom: 12%;
+        right: 10%;
+        left: 10%;
+        color:  rgb(59, 23, 5);
+        text-shadow: 2px 2px 8px #e3e3e3;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 180%;
+    }
+    .modes{
+        padding-top: 40px;
+        display: flex;
+        gap: 80px;
+        justify-content: center;
+        .btnmodes{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        outline: none;
+        border: none;
+        background-color: #ffc595;
+        color: rgb(116, 47, 13);
+        padding: 10px 20px;
+        border-radius: 7px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 30px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        gap: 10px;
+        max-width: 400px;
+        width: 100%;
+        box-sizing: border-box;
+        h8{
+        color: rgb(116, 47, 13);
+        padding: 10px 20px;
+        font-size: 20px;
+        }
+            .modepics{
+                width: 300px;
+                height: auto;
+                object-fit: contain;
+            }
+        }
+    }
+    .btnmodes:hover {
+        background-color: #81381d;
+        color: #ffc595;
+        h8{
+            color: #ffc595;
+        }
+    }
+}
+@media (max-width: 768px) {
+    .modes {
+        flex-direction: column;
+        gap: 15px;
+    }
+    .btnmodes {
+        font-size: 20px;
+        padding: 8px 16px;
+    }
+    .btnmodes .modepics {
+        width: 200px;
+    }
+}
+
+.team{
+    background-image: url('../img/lastcontainerbg.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 530px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    h9{
+        right: 5%;
+        left: 5%;
+        color: rgb(255, 200, 49);
+        text-shadow: 2px 2px 8px #000000;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 400%;
+        padding-top: 3%;
+    }
+    .free {
+        outline: none;
+        border: none;
+        background-image: linear-gradient(rgb(54, 7, 116), rgb(161, 58, 240));
+        border: 5px solid rgb(238, 185, 23);
+        color: rgb(255, 244, 184);
+        padding: 10px 30px;
+        border-radius: 10px;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 30px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+    .free:hover {
+        background-color: #9a3f1b
+    }
+
+}
+
+.toplay{
+    width: 100%;
+    height: 100px;
+    background-color: #209979;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    img{
+        width: 50px;
+        height: 50px;
+        object-fit: contain;
+        transition: transform 0.3s ease;
+    }
+    img:hover{
+        transform: scale(1.1);
+    }
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #172246;
+    color: white;
+    text-align:left;
+    padding: 20px 30px;
+    font-family: 'Arial', sans-serif;
+    .footerlogo{
+        display: flex;
+        justify-content: flex-start;
+    }
+    .flogo {
+        height: 50px;
+        width: auto;
+    }
+    .footer-text {
+        flex: 1;
+        margin-left: 20px;
+    }
+}
+
+
+
+.bg-light{
+    background-color:rgb(116, 47, 13);
+}
+
+
+.container {
+    border-radius: 7px;
+    border: 2px solid rgb(255, 140, 0);
+}
+
+.collapse{
+    justify-content: space-between;
+}
+
+a{
+    font-weight:500px;
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
