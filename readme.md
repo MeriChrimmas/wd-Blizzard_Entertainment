@@ -10,6 +10,7 @@
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
   <h3 align="center">Blizzard Entertainment</h3>
+  <a href="https://wakatime.com/badge/user/e22e73c0-40a7-4ede-9f8c-59182113a282/project/90960879-fd69-4d0d-a5ca-b481f2908026"><img src="https://wakatime.com/badge/user/e22e73c0-40a7-4ede-9f8c-59182113a282/project/90960879-fd69-4d0d-a5ca-b481f2908026.svg" alt="wakatime"></a>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
